@@ -5,7 +5,6 @@ url: "https://vikramsaix.github.io"
 baseurl: "/vikram-qa-portfolio"
 
 lang: en
-theme: jekyll-theme-chirpy
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 email: vikramksv95@gmail.com
