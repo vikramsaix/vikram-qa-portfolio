@@ -1,5 +1,21 @@
-title: "Sai Vikram Kattamanchi | QA Automation Portfolio"
-description: "Portfolio of a Software Test Engineer / SDET specializing in automation frameworks like Selenium, Karate, Cucumber, and ReadyAPI"
-theme: jekyll-theme-cayman
-show_downloads: false
-google_analytics:
+title: "Sai Vikram Kattamanchi"
+tagline: "QA Automation Engineer | SDET | API + UI + Kafka Testing"
+description: "Karate DSL | Postman | Cypress | Pact | Jenkins | Allure | Kafka | FHIR"
+url: "https://vikramsaix.github.io"
+baseurl: "/vikram-qa-portfolio"
+
+lang: en
+theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+email: vikramksv95@gmail.com
+github:
+  username: vikramsaix
+linkedin:
+  username: sai-vikram95
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
