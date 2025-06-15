@@ -5,6 +5,6 @@ title: Resume
 
 # 📄 Resume
 
-[Click here to view/download my resume (PDF)](https://github.com/yourname/vikram-qa-portfolio/blob/main/resume.pdf)
+[Click here to view or download my resume](./resume.pdf)
 
 _Last updated: June 2025_
