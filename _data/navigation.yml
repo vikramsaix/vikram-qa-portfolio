@@ -1,7 +1,7 @@
 # main menu
 main:
   - title: "Home"
-    url: / # Points to your homepage
+    url: /
   - title: "Projects"
     url: /projects/
   - title: "Resume"
@@ -10,6 +10,3 @@ main:
     url: /skills/
   - title: "Contact"
     url: /contact/
-# social links (optional, you can configure these in _config.yml)
-# If you've already set up author social links in _config.yml, Minimal Mistakes
-# will often pick those up automatically.
