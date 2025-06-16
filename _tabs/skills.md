@@ -2,6 +2,7 @@
 title: Skills
 icon: fas fa-tools
 order: 3
+layout: single # Set to 'single' for Minimal Mistakes page layout
 ---
 
 # 🧠 Technical Skills
@@ -73,27 +74,3 @@ A snapshot of tools, frameworks, and platforms I’ve used extensively in automa
 ---
 
 🧠 I specialize in building frameworks that are reliable, modular, and CI/CD-ready — across cloud and microservice-based environments.
-
----
-layout: default
-title: Skills
----
-
-# 🧠 Skills
-
-## ⚙️ Test Automation
-- Selenium WebDriver, TestNG, Cucumber
-- Karate, Postman, REST Assured
-- ReadyAPI, SOAPUI
-
-## 💻 Programming & Tools
-- Java, Maven, Git, Jenkins
-- JUnit, IntelliJ, Eclipse
-
-## 🧪 Testing Types
-- Functional, Regression, API, UI, Smoke/Sanity
-- BDD, Data-driven, End-to-End
-
-## ☁️ CI/CD & Reporting
-- Jenkins, GitHub Actions
-- Allure, ExtentReports, Karate HTML Reports
