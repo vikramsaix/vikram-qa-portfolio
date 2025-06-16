@@ -1,12 +1,9 @@
 ---
-
 ---
-
 @charset "utf-8";
 
-// Import Minimal Mistakes styles (this single import will handle skins based on _config.yml)
+// Import the core theme styles
 @import "minimal-mistakes";
 
-// Import your custom styles (this path refers to _sass/custom/_custom.scss)
+// Import your custom overrides
 @import "minimal-mistakes/custom";
-
