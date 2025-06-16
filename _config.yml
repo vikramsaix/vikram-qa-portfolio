@@ -1,3 +1,6 @@
+Here is the corrected version of your `_config.yml` file, with the `remote_theme` updated to **Minimal Mistakes** as previously discussed:
+
+```yaml
 # ==== Site Settings ====
 title: "Sai Vikram Kattamanchi"
 tagline: "QA Automation Engineer | SDET | Java + Selenium + Karate + Cucumber"
@@ -18,7 +21,7 @@ author:
   linkedin: sai-vikram95
 
 # ==== Theme ====
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: mmistakes/minimal-mistakes # Changed from cotes2020/jekyll-theme-chirpy
 theme_mode: light  # options: light, dark, auto
 
 # ==== SEO and Social ====
@@ -66,3 +69,4 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+```
