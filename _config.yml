@@ -18,8 +18,7 @@ author:
   linkedin: sai-vikram95
 
 # ==== Theme ====
-remote_theme: mmistakes/minimal-mistakes # Changed to Minimal Mistakes
-theme_mode: light  # options: light, dark, auto
+remote_theme: "mmistakes/minimal-mistakes"
 
 # ==== SEO and Social ====
 github:
@@ -27,6 +26,7 @@ github:
 
 # ==== Plugins ====
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -54,7 +54,7 @@ exclude:
   - README.md
   - LICENSE
 
-# ==== Build Settings ====
+# ==== Build Defaults ====
 defaults:
   - scope:
       path: ""
@@ -65,4 +65,4 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "single"
