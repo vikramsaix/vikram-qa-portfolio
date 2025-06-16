@@ -4,8 +4,7 @@ title: "Projects"
 layout: single
 permalink: /projects/
 author\_profile: true
----------------------
-
+---
 # 🚀 Corporate QA Automation Projects
 
 A curated collection of advanced automation frameworks applied in real-world corporate settings. These projects demonstrate full-stack QA strategy across healthcare, fintech, and microservices domains, with CI/CD pipelines, mocking, contract testing, and hybrid validations using modern tools.
