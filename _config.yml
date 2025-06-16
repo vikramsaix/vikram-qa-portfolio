@@ -20,7 +20,7 @@ author:
 # ==== Remote Theme ====
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# ==== Plugins (Only GitHub Pages Supported) ====
+# ==== Plugins (GitHub Pages Supported Only) ====
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
