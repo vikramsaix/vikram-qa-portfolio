@@ -1,8 +1,8 @@
 ---
-title: Skills
-icon: fas fa-tools
-order: 3
-layout: single # Set to 'single' for Minimal Mistakes page layout
+title: "Skills"
+layout: single
+permalink: /skills/
+author_profile: true
 ---
 
 # 🧠 Technical Skills
@@ -15,62 +15,62 @@ A snapshot of tools, frameworks, and platforms I’ve used extensively in automa
 
 - ✅ **Karate DSL** – Full-featured BDD API framework (REST, SOAP, GraphQL, Mocking)
 - ✅ **Cypress** – Modern frontend E2E testing with network control
-- ✅ **Selenium WebDriver** – Legacy and browser compatibility testing
-- ✅ **Cucumber / Gherkin** – BDD-style DSL for feature documentation
-- ✅ **Postman + Newman** – Manual and CLI-based test executions
-- ✅ **ReadyAPI + SoapUI** – Legacy XML / SOAP API testing
+- ✅ **Selenium WebDriver** – Cross-browser and regression testing
+- ✅ **Cucumber / Gherkin** – BDD-style feature documentation
+- ✅ **Postman + Newman** – Manual + CLI test execution
+- ✅ **ReadyAPI / SoapUI** – Legacy SOAP + REST automation
 - ✅ **Pact** – Consumer-driven contract testing
-- ✅ **Allure / Extent Reports** – Visual test reporting
+- ✅ **Allure**, **Extent Reports** – Rich visual reporting dashboards
 
 ---
 
 ## 💻 Programming & Scripting
 
-- ☕ **Java** – Core, OOP, Streams, Lambdas (8+ years)
-- 🐍 **Python** – Automation scripting, REST clients
-- 📜 **JavaScript / TypeScript** – UI automation (Cypress), mocking
-- ⚙️ **Groovy / Shell** – Scripting for Jenkins, test runners
+- ☕ **Java** – OOP, Streams, Lambdas, TestNG, JUnit (8+ years)
+- 🐍 **Python** – Lightweight API utilities, scripting
+- 📜 **JavaScript / TypeScript** – UI automation with Cypress
+- ⚙️ **Groovy / Shell** – Jenkins jobs and CLI runners
 
 ---
 
 ## 🚀 CI/CD & DevOps
 
-- 🔄 **Jenkins** – Pipelines, nightly jobs, test stage integrations
-- 🐳 **Docker** – Containerized automation executions
-- ☁️ **GitHub Actions** – PR-triggered test runs
-- 📦 **Maven / Gradle** – Build tools for test packaging and runners
+- 🔄 **Jenkins** – Declarative pipelines, post-test stages
+- 🐳 **Docker** – Isolated test environments
+- ☁️ **GitHub Actions** – Workflow-triggered test jobs
+- 🛠 **Maven / Gradle** – Test runners, packaging, plugins
 
 ---
 
 ## ☁️ Cloud Platforms
 
-- 🟦 **Azure** – App Services, Function triggers
-- ☁️ **AWS** – S3, EC2, Lambda for test artifacts and cloud stubs
-- 🎯 **GCP** – Cloud Run, Pub/Sub for event stream testing
+- 🟦 **Azure** – App Services, Function triggers for test APIs
+- 🌩 **AWS** – S3, Lambda, EC2 (for cloud-hosted testing)
+- 🎯 **GCP** – Cloud Run, Pub/Sub for event-based test cases
 
 ---
 
-## 🛠 Event & Messaging Systems
+## 📬 Messaging & Events
 
-- 📬 **Kafka** – Event stream validation, consumer group testing
-- 🔁 **Avro / Schema Registry** – Payload validation for Kafka topics
-- 🧵 **Async Retry + Polling** – Custom polling and replay logic
-
----
-
-## 🔐 Security & Authorization
-
-- 🔐 **OAuth2.0** – Token-based flows with refresh logic
-- 🪪 **JWT** – Claims-based verification and dynamic injection
-- 🧩 **API Keys, HMAC** – Header-level auth in regression suites
+- 🔄 **Kafka** – Consumer group testing, offset validation
+- 📥 **Avro / Schema Registry** – Payload + contract validation
+- ⏱️ **Async Retry** – Polling, replay, and wait logic
 
 ---
 
-## 📚 Test Management & Reporting
+## 🔐 Security & Auth
 
-- 🧾 **Allure**, **ExtentReports**, **Karate HTML Reports**
-- 🗂️ **Zephyr**, **Xray**, **TestRail** (integration-ready)
+- 🔐 **OAuth 2.0** – Token acquisition, refresh workflows
+- 🪪 **JWT** – Dynamic token auth and claim validation
+- 🔑 **API Keys / HMAC** – Encrypted header injection
 
 ---
 
-🧠 I specialize in building frameworks that are reliable, modular, and CI/CD-ready — across cloud and microservice-based environments.
+## 📊 Test Management & Reporting
+
+- 📈 **Allure**, **ExtentReports**, **Karate HTML Reports**
+- 🗂 **Zephyr**, **Xray**, **TestRail** – Integration-ready test tracking
+
+---
+
+> I specialize in building CI/CD-ready automation frameworks that are modular, scalable, and cloud-compatible — aligned with microservice ecosystems.
