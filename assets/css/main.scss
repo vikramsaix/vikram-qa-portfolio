@@ -4,9 +4,8 @@
 
 @charset "utf-8";
 
-// Import Minimal Mistakes styles (must come first)
-@import "minimal-mistakes/skins/{{ site.theme_mode | default: 'light' }}"; // Uses your theme_mode from _config.yml
+// Import Minimal Mistakes styles (this single import will handle skins based on _config.yml)
 @import "minimal-mistakes";
 
-// Import your custom styles (must come after Minimal Mistakes imports)
-@import "custom/custom"; // This line imports _sass/custom/_custom.scss
+// Import your custom styles (this path refers to _sass/custom/_custom.scss)
+@import "custom/custom";
