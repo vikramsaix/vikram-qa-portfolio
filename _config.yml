@@ -45,16 +45,13 @@ kramdown:
 paginate: 5
 paginate_path: /page:num/
 
-# ==== Exclude Files ====
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - LICENSE
+# ==== Collections ====
+collections:
+  tabs:
+    output: true
+    permalink: /:name/
 
-# ==== Build Defaults ====
+# ==== Defaults ====
 defaults:
   - scope:
       path: ""
@@ -66,3 +63,17 @@ defaults:
       type: "pages"
     values:
       layout: "single"
+  - scope:
+      path: ""
+      type: "tabs"
+    values:
+      layout: "single"
+
+# ==== Exclude Files ====
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
