@@ -1,56 +1,72 @@
-// This file is for your custom SASS/CSS.
-// Minimal Mistakes will automatically import this.
+// Smooth scrolling for all anchor links
+html {
+  scroll-behavior: smooth;
+}
 
+// Hero Section Styling
 .hero {
   text-align: center;
-  padding: 3rem 1rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
+  padding: 4rem 1.5rem 3rem;
+  background: linear-gradient(to right, #f9fafc, #eef2f7);
+  border-bottom: 1px solid #ddd;
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #1a1a1a;
   margin-bottom: 1rem;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  color: #555;
-  max-width: 700px;
-  margin: 0 auto 1.5rem;
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
 }
 
 .hero ul {
   list-style: none;
   padding: 0;
-  margin: 1rem auto 2rem;
-  font-size: 1rem;
-  color: #333;
-  max-width: 800px;
-  line-height: 1.6;
+  margin: 1.5rem auto 2rem;
+  font-size: 1.05rem;
+  color: #222;
+  max-width: 820px;
+  line-height: 1.7;
 }
 
 .hero ul li::before {
-  content: "🚀 ";
+  content: "✅ ";
+  font-size: 1.2rem;
+  margin-right: 0.3rem;
 }
 
 .btn-group {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .btn-group a {
   display: inline-block;
-  margin: 0 0.5rem;
-  padding: 10px 18px;
-  background: #1f77b4;
-  color: white;
+  padding: 12px 22px;
+  background: #007acc;
+  color: #fff;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 122, 204, 0.2);
 }
 
 .btn-group a:hover {
-  background-color: #135d89;
+  background-color: #005fa3;
+  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.25);
+  transform: translateY(-2px);
 }
