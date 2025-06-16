@@ -3,6 +3,7 @@ layout: home
 title: "Sai Vikram Kattamanchi"
 ---
 
+{% raw %}
 <div class="hero">
   <h1>👋 Hi, I'm Sai Vikram Kattamanchi</h1>
   <p>
@@ -18,8 +19,9 @@ title: "Sai Vikram Kattamanchi"
   </ul>
 
   <div class="btn-group">
-    <a href="/vikram-qa-portfolio/projects">🔧 Projects</a>
-    <a href="/vikram-qa-portfolio/assets/resume/vikram_resume.pdf" target="_blank">📄 Resume</a>
+    <a href="{{ site.baseurl }}/projects/">🔧 Projects</a>
+    <a href="{{ site.baseurl }}/resume.pdf" target="_blank">📄 Resume</a>
     <a href="https://linkedin.com/in/sai-vikram95" target="_blank">💼 LinkedIn</a>
   </div>
 </div>
+{% endraw %}
