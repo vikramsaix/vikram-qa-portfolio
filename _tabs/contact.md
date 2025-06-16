@@ -1,10 +1,12 @@
 ---
-title: Contact
-layout: single # Changed from 'default' for Minimal Mistakes page layout
+title: "Contact"
+layout: single
+permalink: /contact/
+author_profile: true
 ---
 
 # 📬 Contact Me
 
-- 📧 Email: vikramksv95@gmail.com  
-- 🔗 LinkedIn: [www.linkedin.com/in/sai-vikram95](https://www.linkedin.com/in/sai-vikram95)  
-- 🧑‍💻 GitHub: [github.com/yourname](https://github.com/yourname)
+- 📧 **Email**: [vikramksv95@gmail.com](mailto:vikramksv95@gmail.com)  
+- 🔗 **LinkedIn**: [sai-vikram95](https://www.linkedin.com/in/sai-vikram95)  
+- 💻 **GitHub**: [vikramksv](https://github.com/vikramksv)
