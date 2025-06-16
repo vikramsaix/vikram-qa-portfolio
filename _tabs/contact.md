@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Contact
+layout: single # Changed from 'default' for Minimal Mistakes page layout
 ---
 
 # 📬 Contact Me
