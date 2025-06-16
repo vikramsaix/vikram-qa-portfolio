@@ -1,0 +1,12 @@
+---
+# Front matter for Jekyll to process this file
+---
+
+@charset "utf-8";
+
+// Import Minimal Mistakes styles (must come first)
+@import "minimal-mistakes/skins/{{ site.theme_mode | default: 'light' }}"; // Uses your theme_mode from _config.yml
+@import "minimal-mistakes";
+
+// Import your custom styles (must come after Minimal Mistakes imports)
+@import "custom/custom"; // This line imports _sass/custom/_custom.scss
