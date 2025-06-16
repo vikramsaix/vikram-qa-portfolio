@@ -18,20 +18,11 @@ author:
   linkedin: sai-vikram95
 
 # ==== Theme ====
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# ==== SEO and Social ====
-github:
-  username: vikramsaix
-
-# ==== Plugins ====
+# ==== Plugins (ONLY GitHub-supported ones) ====
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
 
 # ==== Markdown ====
 markdown: kramdown
@@ -41,9 +32,9 @@ kramdown:
   auto_ids: true
   toc_levels: 1..6
 
-# ==== Pagination ====
-paginate: 5
-paginate_path: /page:num/
+# ==== Pagination (disable unless needed manually) ====
+# paginate: 5
+# paginate_path: /page:num/
 
 # ==== Collections ====
 collections:
@@ -71,11 +62,7 @@ defaults:
 
 # ==== Exclude Files ====
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - node_modules
   - vendor
   - README.md
   - LICENSE
-
-
