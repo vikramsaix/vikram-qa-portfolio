@@ -5,7 +5,7 @@ description: >-
   A curated portfolio of QA Automation projects using Selenium WebDriver, Karate, REST Assured, and Cucumber with Jenkins CI/CD.
 
 url: "https://vikramsaix.github.io"
-baseurl: ""  # Leave empty for GitHub Pages user site
+baseurl: "/vikram-qa-portfolio"
 
 lang: "en"
 timezone: "America/New_York"
