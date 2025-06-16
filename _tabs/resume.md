@@ -2,6 +2,7 @@
 title: Resume
 icon: fas fa-file-alt
 order: 4
+layout: single # Set to 'single' for Minimal Mistakes page layout
 ---
 
 # 📄 Sai Vikram Kattamanchi – Resume
@@ -27,13 +28,3 @@ _Last updated: June 2025_
 ---
 
 > For more information, contact me via [email](mailto:vikramksv95@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sai-vikram95).
----
-layout: default
-title: Resume
----
-
-# 📄 Resume
-
-[Click here to view or download my resume](./resume.pdf)
-
-_Last updated: June 2025_
