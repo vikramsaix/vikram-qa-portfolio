@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Sai Vikram Kattamanchi"
+show_title: false
+show_excerpts: false
 ---
 
 <div class="hero">
